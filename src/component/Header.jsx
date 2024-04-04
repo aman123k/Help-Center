@@ -7,7 +7,7 @@ import MobileMenu from "./MobileMenu";
 const Header = ({ setMenu, menu }) => {
   return (
     <>
-      <header className=" flex items-center justify-between font-sans px-10 py-8 max-[650px]:p-4">
+      <header className=" flex items-center justify-between font-sans px-10 py-8 max-[650px]:p-6">
         <div className=" flex items-center select-none ">
           <img
             src={header}
